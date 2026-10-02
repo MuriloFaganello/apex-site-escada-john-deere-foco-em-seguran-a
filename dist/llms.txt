@@ -1,0 +1,23 @@
+# Apex
+
+> Demonstrador digital de um retrofit inteligente para automatização segura da escada de acesso de colheitadeiras.
+
+O produto proposto é um kit físico específico por plataforma, não um produto oficial John Deere. A aplicação apresenta cinemática 3D conceitual, painel de cabine, lógica executável de segurança, requisitos, FMEA, peças comerciais candidatas, fontes e preços de referência em reais.
+
+- [Abrir o demonstrador Apex](https://apex.209.50.228.215.sslip.io/)
+- [Benchmark oficial John Deere X Series](https://www.deere.com/en/harvesting/x-series-combines/)
+- [Referência cambial PTAX do Banco Central](https://ptax.bcb.gov.br/ptax_internet/consultarTodasAsMoedas.do?method=consultaTodasMoedas)
+
+## Seções
+
+- Produto: visualização 3D do retrofit instalado, manual, explodido e com envelope de folga.
+- Peças & sistema: arquitetura SVG e catálogo rastreável dos componentes candidatos.
+- Validação: cenários executáveis, falhas e permissão de tração.
+- Painel da cabine: proposta de interação integrada à máquina.
+- Engenharia: problema, requisitos, arquitetura, riscos, viabilidade e aderência ao guia.
+- Evidências: fontes de usuário, ergonomia, John Deere, concorrência e aftermarket.
+- Pitch: narrativa de oito cenas para apresentação.
+
+## Limites
+
+O modelo da colheitadeira é comunitário e não é CAD oficial. A solução é conceitual, não certificada, e depende de dados OEM, análise formal de risco e validação física antes de aplicação em máquina.

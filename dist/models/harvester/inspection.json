@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "uid": "9edb72613ddf4a2cafe82cf844824d49",
+    "author": "OwenNielsen",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://sketchfab.com/3d-models/john-deere-cts-combine-9edb72613ddf4a2cafe82cf844824d49",
+    "name": "John Deere CTS Combine",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "filename": "john_deere_cts_combine.glb",
+    "attestedFilename": "john_deere_cts_combine.glb",
+    "sha256": "03621f3d1d6ca887aaa9dc96f814752a31d737fb9828278f6f1e7ee42016cc18",
+    "selectedSourceSha256": "03621f3d1d6ca887aaa9dc96f814752a31d737fb9828278f6f1e7ee42016cc18",
+    "reviewedBy": "Guilherme — download Sketchfab confirmado no chat"
+  },
+  "output": {
+    "glb": "harvester-web-887f8229d19a.glb",
+    "blend": "harvester-editable.blend",
+    "glbBytes": 3799244,
+    "meshCount": 9,
+    "materialCount": 11,
+    "triangles": 33417,
+    "dimensions": [
+      8.0,
+      3.73465,
+      2.940334
+    ],
+    "anchor": "Apex_LadderAnchor",
+    "anchorLocationBlender": [
+      -1.252451,
+      -2.25,
+      1.39
+    ],
+    "staticGeometry": true,
+    "sha256Glb": "887f8229d19a30093dc16c3f966aadaa7171fbba40b34ee8726218bcd3777255"
+  },
+  "processing": {
+    "blenderVersion": "5.1.2",
+    "profileCalibrated": true,
+    "rotationZDeg": -90,
+    "targetLengthMeters": 8.0,
+    "maxTriangles": 120000,
+    "validatedDependencies": [],
+    "removedObjects": [],
+    "removedMeshComponents": [
+      {
+        "object": "pCube193_Header_and_Ladder1_0",
+        "triangles": 120,
+        "center": [
+          19.940145,
+          15.735196,
+          7.298073
+        ],
+        "dimensions": [
+          1.368912,
+          0.241795,
+          4.665135
+        ]
+      },
+      {
+        "object": "pCube193_Header_and_Ladder1_0",
+        "triangles": 120,
+        "center": [
+          19.940145,
+          16.933172,
+          7.52532
+        ],
+        "dimensions": [
+          1.368912,
+          0.241795,
+          5.119629
+        ]
+      },
+      {
+        "object": "pCube193_Header_and_Ladder1_0",
+        "triangles": 116,
+        "center": [
+          19.19458,
+          16.334185,
+          6.201623
+        ],
+        "dimensions": [
+          2.704336,
+          1.091031,
+          2.469625
+        ]
+      }
+    ],
+    "geometryBake": {
+      "evaluatedTriangles": 33417,
+      "bakedObjects": [
+        "pCube187_Cab1_0",
+        "pCube190_Hopper1_0",
+        "pCube191_Engine1_0",
+        "pCube192_Panels1_0",
+        "pCube193_Header_and_Ladder1_0",
+        "pCylinder195_Wheels2_0",
+        "pCylinder196_Feeder_House1_0",
+        "polySurface133_Hopper_0",
+        "polySurface140_Body1_0"
+      ]
+    },
+    "optimization": {
+      "before": 33417,
+      "after": 33417,
+      "decimated": []
+    },
+    "packWarning": null
+  },
+  "changes": "Adapted for Apex: scale and orientation normalized from a reviewed profile; cameras and lights removed; original access ladder removed by calibrated mesh-component fingerprints; modifiers baked; geometry optimized to the web triangle budget; Apex ladder anchor added; exported to GLB.",
+  "disclaimer": "Community model used for concept visualization; not official John Deere CAD or engineering geometry."
+}

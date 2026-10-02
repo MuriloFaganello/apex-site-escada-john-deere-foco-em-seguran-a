@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "available": true,
+  "modelFile": "harvester-web-887f8229d19a.glb",
+  "uid": "9edb72613ddf4a2cafe82cf844824d49",
+  "author": "OwenNielsen",
+  "license": "CC BY 4.0",
+  "sourceUrl": "https://sketchfab.com/3d-models/john-deere-cts-combine-9edb72613ddf4a2cafe82cf844824d49",
+  "name": "John Deere CTS Combine",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "downloadable": true,
+  "sourceTriangles": 33785,
+  "outputTriangles": 33417,
+  "dimensions": [
+    8.0,
+    3.73465,
+    2.940334
+  ],
+  "maxTriangles": 120000,
+  "sha256Source": "03621f3d1d6ca887aaa9dc96f814752a31d737fb9828278f6f1e7ee42016cc18",
+  "sha256SelectedSource": "03621f3d1d6ca887aaa9dc96f814752a31d737fb9828278f6f1e7ee42016cc18",
+  "reviewedBy": "Guilherme — download Sketchfab confirmado no chat",
+  "profileCalibrated": true,
+  "staticGeometry": true,
+  "changes": "Adapted for Apex: scale and orientation normalized from a reviewed profile; cameras and lights removed; original access ladder removed by calibrated mesh-component fingerprints; modifiers baked; geometry optimized to the web triangle budget; Apex ladder anchor added; exported to GLB.",
+  "ladderAnchor": {
+    "name": "Apex_LadderAnchor",
+    "blender": [
+      -1.252451,
+      -2.25,
+      1.39
+    ],
+    "three": [
+      -1.252451,
+      1.39,
+      2.25
+    ]
+  },
+  "disclaimer": "Community model used for concept visualization; not official John Deere CAD or engineering geometry.",
+  "sha256Glb": "887f8229d19a30093dc16c3f966aadaa7171fbba40b34ee8726218bcd3777255",
+  "publishedAt": "2026-08-21T12:58:55.614031+00:00"
+}

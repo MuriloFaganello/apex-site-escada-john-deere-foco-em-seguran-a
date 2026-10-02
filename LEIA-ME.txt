@@ -1,0 +1,86 @@
+APEX — COMO RODAR NO SEU COMPUTADOR
+===================================
+
+O Apex é um demonstrador digital (gêmeo digital 3D, simulador e painel da
+cabine) de um kit de automação de escada para colheitadeiras John Deere.
+Ele roda inteiro no seu computador e não precisa de internet.
+
+
+O QUE VOCÊ PRECISA
+------------------
+- Um navegador atualizado: Chrome, Edge ou Firefox.
+- Python 3 instalado (é só o que serve as páginas; você não vai programar nada).
+    Windows: baixe em https://www.python.org/downloads/ e, na primeira tela do
+             instalador, marque "Add python.exe to PATH".
+    macOS e Linux: normalmente já vem instalado.
+
+
+PASSO A PASSO
+-------------
+1. Extraia o arquivo Apex-Offline.zip.
+   No Windows: botão direito no zip > "Extrair tudo...".
+   Não rode de dentro do zip sem extrair.
+
+2. Abra a pasta Apex-Offline que foi criada.
+
+3. Inicie o Apex:
+
+   WINDOWS
+     Dê dois cliques em  iniciar-windows.bat
+     Se aparecer "O Windows protegeu o computador", clique em
+     "Mais informações" > "Executar assim mesmo".
+
+   MACOS ou LINUX
+     Abra o Terminal nesta pasta e digite:
+         bash iniciar-linux.sh
+     (No macOS: clique com o botão direito na pasta Apex-Offline >
+      "Novo Terminal na Pasta". No Linux: botão direito > "Abrir no terminal".)
+
+4. O navegador abre sozinho no Apex. O endereço também aparece na janela,
+   normalmente  http://localhost:8080  (se essa porta estiver ocupada, o Apex
+   usa a próxima livre: 8081, 8082...). Se o navegador não abrir, copie o
+   endereço mostrado na janela e cole no navegador.
+
+5. Deixe a janela preta (terminal) aberta enquanto usa o Apex.
+   Para encerrar, feche essa janela (ou pressione Ctrl+C nela).
+
+
+ROTEIRO SUGERIDO (5 MINUTOS)
+----------------------------
+- Produto: gire o modelo 3D com o mouse e alterne entre "Antes: manual",
+  "Kit instalado", "Vista explodida" e "Folga validada".
+- Peças & sistema: clique nos marcadores numerados no 3D para ver cada peça,
+  com foto, preço e fonte.
+- Validação: execute "Campo automático" e depois "Obstáculo" para ver a
+  falha segura e a tração inibida.
+- Painel da cabine: veja o que o operador enxerga e teste "Preparar deslocamento".
+- Engenharia: requisitos, arquitetura, riscos (FMEA), custos e evidências.
+
+
+PROBLEMAS COMUNS
+----------------
+- "Python não foi encontrado"
+    Instale o Python (veja acima) e rode o iniciador de novo. No Windows,
+    lembre de marcar "Add python.exe to PATH" na instalação.
+
+- Abriu outra página em vez do Apex
+    Use o endereço exato mostrado na janela do iniciador; a porta pode não
+    ser a 8080 se ela já estiver ocupada por outro programa.
+
+- "Nenhuma porta livre"
+    Feche janelas antigas do Apex ou outros servidores locais e tente de novo.
+
+- O modelo 3D não aparece / "WebGL indisponível"
+    Atualize o navegador ou use o Chrome. Em máquinas virtuais ou acesso
+    remoto, a aceleração gráfica pode estar desligada.
+
+- Abri o index.html direto e ficou em branco
+    É esperado: o navegador bloqueia o app aberto como arquivo. Use sempre o
+    iniciador (passo 3) e o endereço mostrado na janela.
+
+
+OBSERVAÇÃO
+----------
+O Apex é um conceito de engenharia desenvolvido para o Hackathon das
+Engenharias URI 2026 (desafio John Deere). A geometria é funcional, não um
+CAD de produção, e o sistema não é certificado.
